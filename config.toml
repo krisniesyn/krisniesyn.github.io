@@ -1,0 +1,191 @@
+baseURL = 'http://krisniesyn.com/'
+languageCode = 'en-us'
+title = "Kris Niesyn's Personal Site"
+theme = 'spectral'
+defaultContentLanguage = "en"
+
+[params]
+fancyTitle = "Hi, I am Kris!" # title for frontpage, may include image
+
+body = "txt" # this may be deleted man! :D
+copyright = "Kris Niesyn"
+body_is_markdown = false
+#custom_css = "main.css"
+#images = ["path_to_social_image_for_link_previews.jpg"]
+startbuttonLink = "#contact"
+
+[languages.en]
+weight = 10
+languageName = "English"
+description = """
+<div class="type_write">IT Automation Engineer, SRE, DevOps, Systems Engineer, Developer, Music Producer</div>
+"""
+
+#description = '<div class=typeeffect>Developer, IT Automation Engineer, SRE, DevOps, Systems Engineer, Music Producer</div>'
+#startbuttonText = ""
+
+[params.social]
+linkedin='kris-niesyn'
+github='krisniesyn'
+credly='krzysztof-niesyn'
+
+[[languages.en.params.menu.main]]
+url = '/'
+title = "Main"
+
+[[languages.en.params.menu.main]]
+url = '/workexperience'
+title = "Work Experience"
+
+[[languages.en.params.menu.main]]
+url = '/educert'
+title = "Education & Certifications"
+
+[[languages.en.params.menu.main]]
+url = '/mymusic'
+title = "My Music"
+
+
+[[languages.en.params.menu.main]]
+url = '#contact'
+title = "Contact"
+
+# First section
+
+[languages.en.one]
+enable = true
+title = 'Systems Engineer with automation passion.'
+body = "I am a passionate and multi-skilled IT engineer, equipped with nine years of extensive experience in enterprise-level IT infrastructure. My expertise is further strengthened by a solid comprehension of enterprise architecture, as well as ITIL practices and project management frameworks."
+
+# Second 
+
+[languages.en.two]
+enable = true
+[[languages.en.two.section]]
+img = "images/AutomationPassion.svg"
+title = 'Automation passion'
+body = """
+I am passionate about IT automation processes which I create on a daily basis through scripting. 
+<br />I'm strongly interested in end to end solutions and ease of use.
+<br />I became major problem solver in my organization delivering solutions and recommendations within IT processes automation area and CI/CD processes.
+"""
+
+[[languages.en.two.section]]
+img = "images/ProblemSolving.svg"
+title = 'Problem solver'
+body = "As someone who thrives on challenges, I bacame major troubleshooting expert in my organization, particularly in the automation domain. I possess a tenacious and determined problem-solving approach, which enables me to not only deliver effective solutions but also provide insightful recommendations. Moreover, I am adept at initiating and leading teams to tackle complex issues, utilizing my analytical skills to deconstruct problems and identify root causes until a viable solution is reached."
+
+[[languages.en.two.section]]
+img = "images/Customer.svg"
+title = 'Customer-oriented'
+body = """
+Having both good technical and business acumen enabled me to develop and maintain close working relationships with stakeholders. 
+<br />I am always willing to hear other perspectives to stay open-minded, recognize the requirements while communicating with people I work with.
+"""
+
+[[languages.en.two.section]]
+img = "images/ModernInfrastructure.svg"
+title = 'Modern infrastucutre'
+body = 'Currently, I am deeply interested in cloud orchestration software, containerization, virtualization, and workload optimization.'
+
+
+
+# Third 
+
+[languages.en.three]
+
+enable = true
+title = 'Skills and area of interests'
+body = """
+<br /> <b> <a href="/educert">Here</a> </b> you can find all my certifications.
+<br /> If you interest in my work experience click <b><a href="/workexperience">here</a></b>.
+<p>
+Below you can find my skills and areas of interest.
+</p>
+
+"""
+[[languages.en.three.feature]]
+icon = "fa-code"
+title = "Scripting & Programming"
+body = """
+I am mostly experienced with PowerShell which I am still using on daily-basis. <br /> I also know Python and most recently started using Go.
+
+<p>
+PowerShell ⭑⭑⭑⭑⭑ 
+</br> 
+Python ⭑⭑⭑
+</br> 
+Golang ⭑⭑
+</p>
+"""
+
+[[languages.en.three.feature]]
+icon = "fa-cogs"
+title = "DevOps"
+body = """
+I deeply into Continous Delivery concept and enjoyed using some of the tools and concept in practice. 
+<p>
+Azure DevOps ⭑⭑⭑
+</br> GitHub Actions ⭑⭑
+</br> GitLab CI ⭑
+</p>
+"""
+
+[[languages.en.three.feature]]
+icon = "fa-server"
+title = "IT Infrastructure"
+body = """
+I am loving UNIX/Linux environments based on open-source technologies, and have almost 10 years comercial experience with Microsoft stack. I am strong IaC advocate, to enable fast delivery.
+<p>
+Microsoft Windows ⭑⭑⭑⭑⭑
+</br> 
+Linux/Unix ⭑⭑⭑⭑
+</br> 
+Infrastrucutre as a Code ⭑⭑⭑⭑
+</p>
+"""
+
+[[languages.en.three.feature]]
+icon = "fa-cloud"
+title = "Cloud computing"
+body = """
+I am interested in public cloud environments and passed multiple certifications including: <p>
+Azure Cloud ⭑⭑⭑⭑
+</br> 
+Google Cloud ⭑⭑
+</p>
+"""
+
+
+[[languages.en.three.feature]]
+icon = "fa-bullseye"
+title = "Leadership & management"
+body = """
+I've got team-leading experience, and got multiple PM related certification including: <p>
+    - TOGAF
+<br /> - Prince2
+<br /> - SAFe
+<br /> - ITIL Foundation
+</p>
+"""
+
+[[languages.en.three.feature]]
+icon = "fa-music"
+title = "Music production"
+body = """
+I've got big passion in electronic music production. 
+<br />I have experience in creating music as EDM / ghost-producer, short-movie animation, festivals and mobile games.
+<p><b><a href='/mymusic'>Here</a></b> you can find out more. </p>
+"""
+
+
+# footer part:
+
+[languages.en.contact]
+enable = true
+title = "Contact Me"
+#phone = "+48 669 409 540"
+email = "footed-jiffy-0w@icloud.com"
+body = 'Contact me for questions, or want to cooperate.'
+subject = "New email from krisniesyn.com"
+formspree_form_id = "mjvzpzyw"

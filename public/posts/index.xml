@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Kris Niesyn&#39;s Personal Site</title>
+    <link>http://krisniesyn.com/posts/</link>
+    <description>Recent content in Posts on Kris Niesyn&#39;s Personal Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 22 Feb 2023 15:24:09 +0100</lastBuildDate><atom:link href="http://krisniesyn.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Intro</title>
+      <link>http://krisniesyn.com/posts/intro/</link>
+      <pubDate>Wed, 22 Feb 2023 15:24:09 +0100</pubDate>
+      
+      <guid>http://krisniesyn.com/posts/intro/</guid>
+      <description>Introduction This is bold text, and this is emphasized text.
+Visit the Hugo website!</description>
+    </item>
+    
+  </channel>
+</rss>
